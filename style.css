@@ -8,3 +8,47 @@
     max-width: 1200px;
     margin: auto;
 }
+
+/* --------HEADER-------- */
+header {
+    padding: 17px 0;
+    background-color: #add8e6;
+    text-align: center;    
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-top > .nav {
+    width: 60%;
+}
+
+.header-top > .logo, .login {
+    width: 20%;
+}
+
+.logo {
+    text-align: left;
+}
+
+.login {
+    text-align: right;
+}
+
+/* DEBUG HEADER */
+.debug .header-top {
+   background-color: #daa520;
+   height: 80px;
+   border: 2px dashed black;
+}
+
+.debug .nav {
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+    height: 100%;
+    line-height: 57px;
+}
