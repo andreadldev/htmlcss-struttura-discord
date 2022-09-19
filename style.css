@@ -12,11 +12,13 @@
 .block {
     display: flex;
     justify-content: center;
+    padding: 50px 0;
 }
 
 /* ---------------------------------HEADER--------------------------------- */
 
 /* --------------TOP-------------- */
+
 .header-top {
     padding: 17px 0;
     background-color: #add8e6;
@@ -47,18 +49,33 @@
 }
 
 /* -------------BOTTOM------------- */
-.header-bottom {
-    padding: 50px 0;
-    text-align: center;    
-}
-
 .header-content {
-    display: flex;
     width: 70%;
-   
 }
 
-/* --------------DEBUG-------------- */
+/* ---------------------------------MAIN--------------------------------- */
+
+section:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+.block-big {
+    width: 60%;
+}
+
+.block-small {
+    width: 40%;
+}
+
+/* ---------------------------------DEBUG--------------------------------- */
+
+.debug .test-block {
+    height: 400px; 
+    border: 2px dashed black;
+}
+
+/* ------------HEADER------------ */
+
 .debug .nav {
    background-color: #daa520;
    height: 80px;
@@ -77,7 +94,15 @@
 }
 
 .debug .header-content {
-    height: 400px;
     background-color: #ee82ee;
-    border: 2px dashed black;
+}
+
+/* ------------MAIN------------ */
+
+.debug .block-big {
+    background-color: #1e90ff;
+}
+
+.debug .block-small {
+    background-color: #ffc0cb;
 }
