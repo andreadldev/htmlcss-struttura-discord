@@ -113,15 +113,20 @@ footer > section {
 
 .debug .nav {
    background-color: #daa520;
-   height: 80px;
+   height: 45px;
    border: 2px dashed black;
 }
 
-.debug .nav-links {
-    border-left: 2px dashed black;
+.debug .nav-logo {
     border-right: 2px dashed black;
-    height: 100%;
-    line-height: 57px;
+    height: 200%;
+    line-height: 40px;
+}
+
+.debug .nav-login {
+    border-left: 2px dashed black;
+    height: 200%;
+    line-height: 40px;
 }
 
 .debug .header-bottom {
