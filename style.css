@@ -70,6 +70,23 @@ section:nth-child(even) {
 .block-bigger {
     width: 100%;
 }
+
+/* --------------------------------FOOTER--------------------------------- */
+footer > section {
+    background-color: #23272a;
+    border-bottom: 2px solid white;
+}
+
+.footer-column-big {
+    width: calc(100%/3);
+    margin-top: -20px;
+}
+
+.footer-column-small {
+    width: calc(100%/6);
+    margin-top: -20px;
+}
+
 /* ---------------------------------DEBUG--------------------------------- */
 
 .debug .test-block {
@@ -113,4 +130,18 @@ section:nth-child(even) {
 .debug .block-bigger {
     background-color :#228b22;
     height: 900px;
+}
+
+/* -----------FOOTER----------- */
+
+.debug .TestColumnBig {
+    height: 580px;
+    border: 2px dashed black;
+    background-color: #f08080;
+}
+
+.debug .TestColumnSmall {
+    height: 580px;
+    background-color: #20b2aa;
+    border: 2px dashed white;
 }
