@@ -9,46 +9,75 @@
     margin: auto;
 }
 
-/* --------HEADER-------- */
-header {
+.block {
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------------------------HEADER--------------------------------- */
+
+/* --------------TOP-------------- */
+.header-top {
     padding: 17px 0;
     background-color: #add8e6;
     text-align: center;    
 }
 
-.header-top {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
-.header-top > .nav {
+.nav > .nav-links {
     width: 60%;
 }
 
-.header-top > .logo, .login {
+.nav > .nav-logo, .nav-login {
     width: 20%;
 }
 
-.logo {
+.nav-logo {
     text-align: left;
 }
 
-.login {
+.nav-login {
     text-align: right;
 }
 
-/* DEBUG HEADER */
-.debug .header-top {
+/* -------------BOTTOM------------- */
+.header-bottom {
+    padding: 50px 0;
+    text-align: center;    
+}
+
+.header-content {
+    display: flex;
+    width: 70%;
+   
+}
+
+/* --------------DEBUG-------------- */
+.debug .nav {
    background-color: #daa520;
    height: 80px;
    border: 2px dashed black;
 }
 
-.debug .nav {
+.debug .nav-links {
     border-left: 2px dashed black;
     border-right: 2px dashed black;
     height: 100%;
     line-height: 57px;
+}
+
+.debug .header-bottom {
+    background-color: #00008b;
+}
+
+.debug .header-content {
+    height: 400px;
+    background-color: #ee82ee;
+    border: 2px dashed black;
 }
