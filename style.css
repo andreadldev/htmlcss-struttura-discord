@@ -59,14 +59,17 @@ section:nth-child(even) {
     background-color: #d3d3d3;
 }
 
-.block-big {
-    width: 60%;
-}
-
 .block-small {
     width: 40%;
 }
 
+.block-big {
+    width: 60%;
+}
+
+.block-bigger {
+    width: 100%;
+}
 /* ---------------------------------DEBUG--------------------------------- */
 
 .debug .test-block {
@@ -105,4 +108,9 @@ section:nth-child(even) {
 
 .debug .block-small {
     background-color: #ffc0cb;
+}
+
+.debug .block-bigger {
+    background-color :#228b22;
+    height: 900px;
 }
