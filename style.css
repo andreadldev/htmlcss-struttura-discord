@@ -17,7 +17,7 @@
 
 /* ---------------------------------HEADER--------------------------------- */
 
-/* --------------TOP-------------- */
+/* -------------SOPRA------------- */
 
 .header-top {
     padding: 17px 0;
@@ -48,8 +48,8 @@
     text-align: right;
 }
 
-/* -------------BOTTOM------------- */
-.header-content {
+/* -------------SOTTO------------- */
+.header-block {
     width: 70%;
 }
 
@@ -72,19 +72,34 @@ section:nth-child(even) {
 }
 
 /* --------------------------------FOOTER--------------------------------- */
+
+/* -------------SOPRA------------- */
 footer > section {
     background-color: #23272a;
-    border-bottom: 2px solid white;
 }
 
-.footer-column-big {
+.footer-col-big {
     width: calc(100%/3);
     margin-top: -20px;
 }
 
-.footer-column-small {
+.footer-col-small {
     width: calc(100%/6);
     margin-top: -20px;
+}
+
+/* -------------SOTTO------------- */
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer-nav-logo, .footer-nav-button {
+    height: 37px;
+    padding: 6px 10px;
 }
 
 /* ---------------------------------DEBUG--------------------------------- */
@@ -113,7 +128,7 @@ footer > section {
     background-color: #00008b;
 }
 
-.debug .header-content {
+.debug .header-block {
     background-color: #ee82ee;
 }
 
@@ -134,14 +149,24 @@ footer > section {
 
 /* -----------FOOTER----------- */
 
-.debug .TestColumnBig {
+.debug .test-col-big {
     height: 580px;
     border: 2px dashed black;
     background-color: #f08080;
 }
 
-.debug .TestColumnSmall {
+.debug .test-col-small {
     height: 580px;
     background-color: #20b2aa;
     border: 2px dashed white;
+}
+
+.debug .footer-nav {
+    height: 80px;
+    background-color: #7fffd4;
+}
+
+.debug .footer-nav-logo, .debug  .footer-nav-button {
+    background-color: #ffb6c1;
+    border: 2px dashed black;
 }
